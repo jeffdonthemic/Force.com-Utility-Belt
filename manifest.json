@@ -1,0 +1,17 @@
+{
+  "name": "Force.com Utility Belt",
+  "version": "1.2",
+  "description": "All kinds of nifty Force.com tools, links and shortcuts for develoment on Salesforce.com",
+  "browser_action": {
+    "default_icon": "icon.png",
+		"default_title": "Force.com Utility Belt",
+		"popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "http://feeds.feedburner.com/*"
+  ],
+	"icons": { "16": "icon16.png",
+	           "48": "icon48.png",
+	          "128": "icon128.png" }
+}
